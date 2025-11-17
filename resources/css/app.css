@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Smooth transition for all theme-aware elements */
+html,
+body {
+    @apply transition-colors duration-300;
+}
+
+/* Optional: smoother background transitions */
+.bg-base-100,
+.bg-base-200,
+.bg-base-300 {
+    @apply transition-colors duration-300;
+}
